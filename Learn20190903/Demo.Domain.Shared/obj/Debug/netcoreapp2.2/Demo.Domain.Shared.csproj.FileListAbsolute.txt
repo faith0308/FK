@@ -1,0 +1,14 @@
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\bin\Debug\netcoreapp2.2\Demo.Domain.Shared.deps.json
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\bin\Debug\netcoreapp2.2\Demo.Domain.Shared.dll
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\bin\Debug\netcoreapp2.2\Demo.Domain.Shared.pdb
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\obj\Debug\netcoreapp2.2\Demo.Domain.Shared.csproj.CoreCompileInputs.cache
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\obj\Debug\netcoreapp2.2\Demo.Domain.Shared.AssemblyInfoInputs.cache
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\obj\Debug\netcoreapp2.2\Demo.Domain.Shared.AssemblyInfo.cs
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\obj\Debug\netcoreapp2.2\Demo.Domain.Shared.dll
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\obj\Debug\netcoreapp2.2\Demo.Domain.Shared.pdb
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\bin\Debug\netcoreapp2.2\Demo.Domain.Shared.xml
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\bin\Debug\netcoreapp2.2\netcoreapp2.2\Demo.Domain.Shared.deps.json
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\bin\Debug\netcoreapp2.2\netcoreapp2.2\Demo.Domain.Shared.dll
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\bin\Debug\netcoreapp2.2\netcoreapp2.2\Demo.Domain.Shared.pdb
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\bin\Debug\netcoreapp2.2\netcoreapp2.2\Demo.Domain.Shared.xml
+F:\LearnProject\Learn20190903\Demo.Domain.Shared\obj\Debug\netcoreapp2.2\Demo.Domain.Shared.csprojAssemblyReference.cache

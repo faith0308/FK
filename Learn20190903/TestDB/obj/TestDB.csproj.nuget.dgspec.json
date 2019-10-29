@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\LearnProject\\Learn20190903\\TestDB\\TestDB.csproj": {}
+  },
+  "projects": {
+    "F:\\LearnProject\\Learn20190903\\TestDB\\TestDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\TestDB\\TestDB.csproj",
+        "projectName": "TestDB",
+        "projectPath": "F:\\LearnProject\\Learn20190903\\TestDB\\TestDB.csproj",
+        "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
+        "outputPath": "F:\\LearnProject\\Learn20190903\\TestDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\faith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.134:8081/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

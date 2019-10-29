@@ -1,0 +1,13 @@
+F:\LearnProject\Learn20190903\WFApp\bin\Debug\WFApp.exe.config
+F:\LearnProject\Learn20190903\WFApp\bin\Debug\WFApp.exe
+F:\LearnProject\Learn20190903\WFApp\bin\Debug\WFApp.pdb
+F:\LearnProject\Learn20190903\WFApp\bin\Debug\Singleton.dll
+F:\LearnProject\Learn20190903\WFApp\bin\Debug\Singleton.pdb
+F:\LearnProject\Learn20190903\WFApp\obj\Debug\WFApp.csprojAssemblyReference.cache
+F:\LearnProject\Learn20190903\WFApp\obj\Debug\WFApp.Form1.resources
+F:\LearnProject\Learn20190903\WFApp\obj\Debug\WFApp.Properties.Resources.resources
+F:\LearnProject\Learn20190903\WFApp\obj\Debug\WFApp.csproj.GenerateResource.cache
+F:\LearnProject\Learn20190903\WFApp\obj\Debug\WFApp.csproj.CoreCompileInputs.cache
+F:\LearnProject\Learn20190903\WFApp\obj\Debug\WFApp.csproj.CopyComplete
+F:\LearnProject\Learn20190903\WFApp\obj\Debug\WFApp.exe
+F:\LearnProject\Learn20190903\WFApp\obj\Debug\WFApp.pdb

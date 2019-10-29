@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiExemple</name>
+    </assembly>
+    <members>
+        <member name="T:WebApiExemple.Controllers.ValuesController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApiExemple.Controllers.ValuesController.#ctor(Demo.IApplication.Users.IUsersAppService)">
+            <summary>
+            
+            </summary>
+            <param name="usersAppService"></param>
+        </member>
+        <member name="M:WebApiExemple.Controllers.ValuesController.Get(Demo.Domain.Shared.Paging.PageInput{Demo.IApplication.Users.DTO.QueryUserInput})">
+            <summary>
+            分页获取用户数据
+            </summary>
+            GET api/values
+            <param name="pageInput">输入参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApiExemple.Filter.ActionPackageFilter">
+            <summary>
+            动作过滤器
+            </summary>
+        </member>
+        <member name="M:WebApiExemple.Filter.ActionPackageFilter.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:WebApiExemple.Filter.ActionPackageFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:WebApiExemple.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApiExemple.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:WebApiExemple.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApiExemple.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container. 
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:WebApiExemple.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="provider"></param>
+        </member>
+    </members>
+</doc>

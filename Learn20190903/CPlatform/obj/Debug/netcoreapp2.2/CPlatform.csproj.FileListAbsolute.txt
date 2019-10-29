@@ -1,0 +1,9 @@
+F:\LearnProject\Learn20190903\CPlatform\bin\Debug\netcoreapp2.2\CPlatform.deps.json
+F:\LearnProject\Learn20190903\CPlatform\bin\Debug\netcoreapp2.2\CPlatform.dll
+F:\LearnProject\Learn20190903\CPlatform\bin\Debug\netcoreapp2.2\CPlatform.pdb
+F:\LearnProject\Learn20190903\CPlatform\obj\Debug\netcoreapp2.2\CPlatform.csprojAssemblyReference.cache
+F:\LearnProject\Learn20190903\CPlatform\obj\Debug\netcoreapp2.2\CPlatform.csproj.CoreCompileInputs.cache
+F:\LearnProject\Learn20190903\CPlatform\obj\Debug\netcoreapp2.2\CPlatform.AssemblyInfoInputs.cache
+F:\LearnProject\Learn20190903\CPlatform\obj\Debug\netcoreapp2.2\CPlatform.AssemblyInfo.cs
+F:\LearnProject\Learn20190903\CPlatform\obj\Debug\netcoreapp2.2\CPlatform.dll
+F:\LearnProject\Learn20190903\CPlatform\obj\Debug\netcoreapp2.2\CPlatform.pdb

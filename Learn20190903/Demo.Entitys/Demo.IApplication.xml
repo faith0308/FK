@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Demo.IApplication</name>
+    </assembly>
+    <members>
+        <member name="T:Demo.IApplication.Users.DTO.AddUserInput">
+            <summary>
+             添加用户输入
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.AddUserInput.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.AddUserInput.UserPwd">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.AddUserInput.Six">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.AddUserInput.Birthday">
+            <summary>
+            出生日期
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.AddUserInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Demo.IApplication.Users.DTO.QueryUserInput">
+            <summary>
+            查询输入参数
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.QueryUserInput.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.QueryUserInput.Six">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.QueryUserInput.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Demo.IApplication.Users.DTO.QueryUserOutput">
+            <summary>
+            用户查询返回对象
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.Id">
+            <summary>
+            用户标识Id
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.Six">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.Birthday">
+            <summary>
+            出生日期
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.Status">
+            <summary>
+            状态 1-有效，0-失效 
+            </summary>
+        </member>
+        <member name="T:Demo.IApplication.Users.DTO.UpdatePasswordInput">
+            <summary>
+            修改密码入参对象
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.UpdatePasswordInput.UserPwd">
+            <summary>
+            第一次密码
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.UpdatePasswordInput.SecondUserPwd">
+            <summary>
+            第二次密码
+            </summary>
+        </member>
+        <member name="T:Demo.IApplication.Users.DTO.UpdateUserInput">
+            <summary>
+            修改用户输入对象
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.UpdateUserInput.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.UpdateUserInput.Six">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.UpdateUserInput.Birthday">
+            <summary>
+            出生日期
+            </summary>
+        </member>
+        <member name="P:Demo.IApplication.Users.DTO.UpdateUserInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="M:Demo.IApplication.Users.IUsersAppService.AddUser(Demo.IApplication.Users.DTO.AddUserInput)">
+            <summary>
+            新增用户
+            </summary>
+            <param name="addUserInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Demo.IApplication.Users.IUsersAppService.UpdateUser(Demo.IApplication.Users.DTO.UpdateUserInput)">
+            <summary>
+            修改用户
+            </summary>
+            <param name="updateUserInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Demo.IApplication.Users.IUsersAppService.GetUser(System.Int64)">
+             <summary>
+            根据用户Id获取用户明细
+             </summary>
+             <param name="Id"></param>
+             <returns>返回用户明细</returns>
+        </member>
+        <member name="M:Demo.IApplication.Users.IUsersAppService.GetPageUsers(Demo.Domain.Shared.Paging.PageInput{Demo.IApplication.Users.DTO.QueryUserInput})">
+            <summary>
+            根据分页参数 分页获取用户集合
+            </summary>
+            <param name="PageRequestPackage"></param>
+            <returns>分页返回用户集合</returns>
+        </member>
+    </members>
+</doc>

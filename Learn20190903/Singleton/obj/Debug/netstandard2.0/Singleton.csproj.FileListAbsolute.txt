@@ -1,0 +1,9 @@
+F:\LearnProject\Learn20190903\Singleton\bin\Debug\netstandard2.0\Singleton.deps.json
+F:\LearnProject\Learn20190903\Singleton\bin\Debug\netstandard2.0\Singleton.dll
+F:\LearnProject\Learn20190903\Singleton\bin\Debug\netstandard2.0\Singleton.pdb
+F:\LearnProject\Learn20190903\Singleton\obj\Debug\netstandard2.0\Singleton.csproj.CoreCompileInputs.cache
+F:\LearnProject\Learn20190903\Singleton\obj\Debug\netstandard2.0\Singleton.AssemblyInfoInputs.cache
+F:\LearnProject\Learn20190903\Singleton\obj\Debug\netstandard2.0\Singleton.AssemblyInfo.cs
+F:\LearnProject\Learn20190903\Singleton\obj\Debug\netstandard2.0\Singleton.dll
+F:\LearnProject\Learn20190903\Singleton\obj\Debug\netstandard2.0\Singleton.pdb
+F:\LearnProject\Learn20190903\Singleton\obj\Debug\netstandard2.0\Singleton.csprojAssemblyReference.cache

@@ -1,0 +1,59 @@
+{
+  "ReRoutes": [
+    {
+      //下游的路由模板，即真实处理请求的路径模板
+      "DownstreamPathTemplate": "/api/{url}",
+      //请求的方式，如：http,htttps
+      "DownstreamScheme": "http",
+      //下游的IP以及端口,可以有多个(如果使用负载均衡)
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6002
+        },
+        {
+          "Host": "localhost",
+          "Port": 6004
+        }
+      ],
+      //上游请求的模板，即用户真实请求的链接
+      "UpstreamPathTemplate": "/{url}",
+      //上游请求的http方法，是个数组，你可以写多个
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      //负载均衡选项
+      "LoadBalancerOptions": {
+        //LeastConnection：将请求发往最空闲的那个服务器  RoundRobin：轮流发送 NoLoadBalance：不启用负载均衡，总是发往第一个请求或者服务发现的那个服务器
+        "Type": "RoundRobin"
+      },
+      //流量限制
+      "RateLimitOptions": {
+        //数组，在请求头中包含ClientId=xxx的请求不受限流控制，其中ClientId这个key可以修改，xxx表示配置的白名单。
+        "ClientWhiteList": [
+          "markadmin"
+        ],
+        //是否启用限流
+        "EnableRateLimiting": true,
+        //限流控制的时间周期，输入单位支持s（秒）, m（分）, h（时）, d（天）
+        "Period": "1m",
+        //恢复等待时间，当访问超过限流限制的次数后，需要等待的时间，单位为s，如当一分钟内访问超过5次，就需要等待30秒后，访问才会重新有效
+        "PeriodTimespan": 30,
+        //一个时间周期内允许访问的最大次数
+        "Limit": 5
+      },
+      //服务熔断
+      "QoSOptions": {
+        //允许异常次数，当Ocelot转发给该下游服务连续出现异常次数达到该数字时，Ocelot会进行自动熔断，一段时间内不再向该下游服务转发请求
+        "ExceptionsAllowedBeforeBreaking": 3,
+        //熔断时间，单位为ms（毫秒），持续多长时间不向该下游服务转发请求
+        "DurationOfBreak": 30000,
+        //服务质量配置项，超时时间，单位为ms（毫秒），当Ocelot向下游服务转发请求多长时间后，自动认为该请求超时
+        "TimeoutValue": 5000
+      }
+    }
+
+  ],
+  //全局配置
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5000"
+  }
+}

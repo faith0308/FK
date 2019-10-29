@@ -1,0 +1,12 @@
+F:\LearnProject\Learn20190903\Dapper\bin\Debug\netstandard2.0\Dapper.deps.json
+F:\LearnProject\Learn20190903\Dapper\bin\Debug\netstandard2.0\Dapper.dll
+F:\LearnProject\Learn20190903\Dapper\bin\Debug\netstandard2.0\Dapper.pdb
+F:\LearnProject\Learn20190903\Dapper\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+F:\LearnProject\Learn20190903\Dapper\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+F:\LearnProject\Learn20190903\Dapper\obj\Debug\netstandard2.0\Dapper.csprojAssemblyReference.cache
+F:\LearnProject\Learn20190903\Dapper\obj\Debug\netstandard2.0\Dapper.csproj.CoreCompileInputs.cache
+F:\LearnProject\Learn20190903\Dapper\obj\Debug\netstandard2.0\Dapper.AssemblyInfoInputs.cache
+F:\LearnProject\Learn20190903\Dapper\obj\Debug\netstandard2.0\Dapper.AssemblyInfo.cs
+F:\LearnProject\Learn20190903\Dapper\obj\Debug\netstandard2.0\Dapper.csproj.CopyComplete
+F:\LearnProject\Learn20190903\Dapper\obj\Debug\netstandard2.0\Dapper.dll
+F:\LearnProject\Learn20190903\Dapper\obj\Debug\netstandard2.0\Dapper.pdb

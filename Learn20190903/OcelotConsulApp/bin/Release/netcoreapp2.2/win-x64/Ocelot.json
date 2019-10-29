@@ -1,0 +1,45 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/{url}", //下游的路由模板，即真实处理请求的路径模板
+      "DownstreamScheme": "http", //请求的方式，如：http,htttps
+      "ServiceName": "Ocelot_Consul_Service",
+      "UpstreamPathTemplate": "/Ocelot_Consul_Service/{url}", //上游请求的模板，即用户真实请求的链接
+      "UpstreamHttpMethod": [ "Get", "Post" ], //上游请求的http方法，是个数组，你可以写多个
+      //指明负载平衡方式 LeastConnection：将请求发往最空闲的那个服务器;RoundRobin：轮流发送 NoLoadBalance：不启用负载均衡，总是发往第一个请求或者服务发现的那个服务器
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      //流量限制
+      "RateLimitOptions": {
+        //数组，在请求头中包含ClientId=xxx的请求不受限流控制，其中ClientId这个key可以修改，xxx表示配置的白名单。
+        "ClientWhiteList": [
+          "markadmin"
+        ],
+        //是否启用限流
+        "EnableRateLimiting": true,
+        //限流控制的时间周期，输入单位支持s（秒）, m（分）, h（时）, d（天）
+        "Period": "1m",
+        //恢复等待时间，当访问超过限流限制的次数后，需要等待的时间，单位为s，如当一分钟内访问超过5次，就需要等待30秒后，访问才会重新有效
+        "PeriodTimespan": 30,
+        //一个时间周期内允许访问的最大次数
+        "Limit": 5
+      },
+      //使用服务发现
+      "UseServiceDiscovery": true
+    }
+
+  ],
+  // //全局配置
+  "GlobalConfiguration": {
+    //服务发现的提供者
+    "ServiceDiscoveryProvider": {
+      //ip
+      "Host": "localhost",
+      //端口
+      "Port": 5100,
+      //由Consul提供服务发现
+      "Type": "Consul"
+    }
+  }
+}

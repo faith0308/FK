@@ -1,0 +1,8 @@
+F:\LearnProject\Learn20190903\RabbitMQApp\bin\Debug\netcoreapp2.2\RabbitMQApp.deps.json
+F:\LearnProject\Learn20190903\RabbitMQApp\bin\Debug\netcoreapp2.2\RabbitMQApp.runtimeconfig.json
+F:\LearnProject\Learn20190903\RabbitMQApp\bin\Debug\netcoreapp2.2\RabbitMQApp.runtimeconfig.dev.json
+F:\LearnProject\Learn20190903\RabbitMQApp\bin\Debug\netcoreapp2.2\RabbitMQApp.dll
+F:\LearnProject\Learn20190903\RabbitMQApp\obj\Debug\netcoreapp2.2\RabbitMQApp.csprojAssemblyReference.cache
+F:\LearnProject\Learn20190903\RabbitMQApp\obj\Debug\netcoreapp2.2\RabbitMQApp.csproj.CoreCompileInputs.cache
+F:\LearnProject\Learn20190903\RabbitMQApp\obj\Debug\netcoreapp2.2\RabbitMQApp.AssemblyInfoInputs.cache
+F:\LearnProject\Learn20190903\RabbitMQApp\obj\Debug\netcoreapp2.2\RabbitMQApp.AssemblyInfo.cs

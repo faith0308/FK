@@ -1,0 +1,464 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\LearnProject\\Learn20190903\\Demo.EntityMappers\\Demo.Application.csproj": {}
+  },
+  "projects": {
+    "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj",
+        "projectName": "CPlatform",
+        "projectPath": "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj",
+        "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
+        "outputPath": "F:\\LearnProject\\Learn20190903\\CPlatform\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\faith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.134:8081/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj",
+        "projectName": "DapperCore",
+        "projectPath": "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj",
+        "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
+        "outputPath": "F:\\LearnProject\\Learn20190903\\DapperCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\faith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.134:8081/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj": {
+                "projectPath": "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj"
+              },
+              "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj": {
+                "projectPath": "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj",
+        "projectName": "DapperExtensions",
+        "projectPath": "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj",
+        "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
+        "outputPath": "F:\\LearnProject\\Learn20190903\\DapperExtensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\faith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.134:8081/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.6.0-preview8.19405.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\LearnProject\\Learn20190903\\Demo.Domain.Shared\\Demo.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\Demo.Domain.Shared\\Demo.Domain.Shared.csproj",
+        "projectName": "Demo.Domain.Shared",
+        "projectPath": "F:\\LearnProject\\Learn20190903\\Demo.Domain.Shared\\Demo.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
+        "outputPath": "F:\\LearnProject\\Learn20190903\\Demo.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\faith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.134:8081/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\LearnProject\\Learn20190903\\Demo.Domain\\Demo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\Demo.Domain\\Demo.Domain.csproj",
+        "projectName": "Demo.Domain",
+        "projectPath": "F:\\LearnProject\\Learn20190903\\Demo.Domain\\Demo.Domain.csproj",
+        "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
+        "outputPath": "F:\\LearnProject\\Learn20190903\\Demo.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\faith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.134:8081/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj": {
+                "projectPath": "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj"
+              },
+              "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj": {
+                "projectPath": "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj"
+              },
+              "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj": {
+                "projectPath": "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\LearnProject\\Learn20190903\\Demo.EntityMappers\\Demo.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\Demo.EntityMappers\\Demo.Application.csproj",
+        "projectName": "Demo.Application",
+        "projectPath": "F:\\LearnProject\\Learn20190903\\Demo.EntityMappers\\Demo.Application.csproj",
+        "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
+        "outputPath": "F:\\LearnProject\\Learn20190903\\Demo.EntityMappers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\faith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.134:8081/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj": {
+                "projectPath": "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj"
+              },
+              "F:\\LearnProject\\Learn20190903\\Demo.Domain.Shared\\Demo.Domain.Shared.csproj": {
+                "projectPath": "F:\\LearnProject\\Learn20190903\\Demo.Domain.Shared\\Demo.Domain.Shared.csproj"
+              },
+              "F:\\LearnProject\\Learn20190903\\Demo.Domain\\Demo.Domain.csproj": {
+                "projectPath": "F:\\LearnProject\\Learn20190903\\Demo.Domain\\Demo.Domain.csproj"
+              },
+              "F:\\LearnProject\\Learn20190903\\Demo.Entitys\\Demo.IApplication.csproj": {
+                "projectPath": "F:\\LearnProject\\Learn20190903\\Demo.Entitys\\Demo.IApplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\LearnProject\\Learn20190903\\Demo.Entitys\\Demo.IApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\Demo.Entitys\\Demo.IApplication.csproj",
+        "projectName": "Demo.IApplication",
+        "projectPath": "F:\\LearnProject\\Learn20190903\\Demo.Entitys\\Demo.IApplication.csproj",
+        "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
+        "outputPath": "F:\\LearnProject\\Learn20190903\\Demo.Entitys\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\faith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.134:8081/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj": {
+                "projectPath": "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj"
+              },
+              "F:\\LearnProject\\Learn20190903\\Demo.Domain.Shared\\Demo.Domain.Shared.csproj": {
+                "projectPath": "F:\\LearnProject\\Learn20190903\\Demo.Domain.Shared\\Demo.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

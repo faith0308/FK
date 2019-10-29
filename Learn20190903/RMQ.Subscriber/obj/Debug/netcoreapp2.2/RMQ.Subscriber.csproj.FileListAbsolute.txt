@@ -1,0 +1,14 @@
+F:\LearnProject\Learn20190903\RMQ.Subscriber\bin\Debug\netcoreapp2.2\RMQ.Subscriber.deps.json
+F:\LearnProject\Learn20190903\RMQ.Subscriber\bin\Debug\netcoreapp2.2\RMQ.Subscriber.runtimeconfig.json
+F:\LearnProject\Learn20190903\RMQ.Subscriber\bin\Debug\netcoreapp2.2\RMQ.Subscriber.runtimeconfig.dev.json
+F:\LearnProject\Learn20190903\RMQ.Subscriber\bin\Debug\netcoreapp2.2\RMQ.Subscriber.dll
+F:\LearnProject\Learn20190903\RMQ.Subscriber\obj\Debug\netcoreapp2.2\RMQ.Subscriber.csproj.CoreCompileInputs.cache
+F:\LearnProject\Learn20190903\RMQ.Subscriber\obj\Debug\netcoreapp2.2\RMQ.Subscriber.AssemblyInfoInputs.cache
+F:\LearnProject\Learn20190903\RMQ.Subscriber\obj\Debug\netcoreapp2.2\RMQ.Subscriber.AssemblyInfo.cs
+F:\LearnProject\Learn20190903\RMQ.Subscriber\obj\Debug\netcoreapp2.2\RMQ.Subscriber.csprojAssemblyReference.cache
+F:\LearnProject\Learn20190903\RMQ.Subscriber\bin\Debug\netcoreapp2.2\RMQ.Subscriber.pdb
+F:\LearnProject\Learn20190903\RMQ.Subscriber\bin\Debug\netcoreapp2.2\RMQ.Messages.dll
+F:\LearnProject\Learn20190903\RMQ.Subscriber\bin\Debug\netcoreapp2.2\RMQ.Messages.pdb
+F:\LearnProject\Learn20190903\RMQ.Subscriber\obj\Debug\netcoreapp2.2\RMQ.Subscriber.csproj.CopyComplete
+F:\LearnProject\Learn20190903\RMQ.Subscriber\obj\Debug\netcoreapp2.2\RMQ.Subscriber.dll
+F:\LearnProject\Learn20190903\RMQ.Subscriber\obj\Debug\netcoreapp2.2\RMQ.Subscriber.pdb

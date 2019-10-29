@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\LearnProject\\Learn20190903\\RMQ.Subscriber\\RMQ.Subscriber.csproj": {}
+  },
+  "projects": {
+    "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj",
+        "projectName": "RMQ.Messages",
+        "projectPath": "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj",
+        "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
+        "outputPath": "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\faith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.134:8081/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\LearnProject\\Learn20190903\\RMQ.Subscriber\\RMQ.Subscriber.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\RMQ.Subscriber\\RMQ.Subscriber.csproj",
+        "projectName": "RMQ.Subscriber",
+        "projectPath": "F:\\LearnProject\\Learn20190903\\RMQ.Subscriber\\RMQ.Subscriber.csproj",
+        "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
+        "outputPath": "F:\\LearnProject\\Learn20190903\\RMQ.Subscriber\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\faith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.134:8081/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj": {
+                "projectPath": "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Threading": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

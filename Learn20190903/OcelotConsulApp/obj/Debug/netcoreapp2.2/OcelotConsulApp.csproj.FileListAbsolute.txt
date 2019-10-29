@@ -1,0 +1,15 @@
+F:\LearnProject\Learn20190903\OcelotConsulApp\obj\Debug\netcoreapp2.2\OcelotConsulApp.csproj.CoreCompileInputs.cache
+F:\LearnProject\Learn20190903\OcelotConsulApp\obj\Debug\netcoreapp2.2\OcelotConsulApp.AssemblyInfoInputs.cache
+F:\LearnProject\Learn20190903\OcelotConsulApp\obj\Debug\netcoreapp2.2\OcelotConsulApp.AssemblyInfo.cs
+F:\LearnProject\Learn20190903\OcelotConsulApp\bin\Debug\netcoreapp2.2\OcelotConsulApp.deps.json
+F:\LearnProject\Learn20190903\OcelotConsulApp\bin\Debug\netcoreapp2.2\OcelotConsulApp.runtimeconfig.json
+F:\LearnProject\Learn20190903\OcelotConsulApp\bin\Debug\netcoreapp2.2\OcelotConsulApp.runtimeconfig.dev.json
+F:\LearnProject\Learn20190903\OcelotConsulApp\bin\Debug\netcoreapp2.2\OcelotConsulApp.dll
+F:\LearnProject\Learn20190903\OcelotConsulApp\obj\Debug\netcoreapp2.2\OcelotConsulApp.RazorAssemblyInfo.cache
+F:\LearnProject\Learn20190903\OcelotConsulApp\obj\Debug\netcoreapp2.2\OcelotConsulApp.RazorAssemblyInfo.cs
+F:\LearnProject\Learn20190903\OcelotConsulApp\obj\Debug\netcoreapp2.2\OcelotConsulApp.RazorTargetAssemblyInfo.cache
+F:\LearnProject\Learn20190903\OcelotConsulApp\bin\Debug\netcoreapp2.2\OcelotConsulApp.pdb
+F:\LearnProject\Learn20190903\OcelotConsulApp\obj\Debug\netcoreapp2.2\OcelotConsulApp.dll
+F:\LearnProject\Learn20190903\OcelotConsulApp\obj\Debug\netcoreapp2.2\OcelotConsulApp.pdb
+F:\LearnProject\Learn20190903\OcelotConsulApp\bin\Debug\netcoreapp2.2\Ocelot.json
+F:\LearnProject\Learn20190903\OcelotConsulApp\obj\Debug\netcoreapp2.2\OcelotConsulApp.csprojAssemblyReference.cache

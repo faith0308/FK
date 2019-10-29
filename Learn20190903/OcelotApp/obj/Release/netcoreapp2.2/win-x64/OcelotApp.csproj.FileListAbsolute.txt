@@ -1,0 +1,16 @@
+F:\LearnProject\Learn20190903\OcelotApp\bin\Release\netcoreapp2.2\win-x64\OcelotApp.exe
+F:\LearnProject\Learn20190903\OcelotApp\bin\Release\netcoreapp2.2\win-x64\Ocelot.json
+F:\LearnProject\Learn20190903\OcelotApp\bin\Release\netcoreapp2.2\win-x64\OcelotApp.deps.json
+F:\LearnProject\Learn20190903\OcelotApp\bin\Release\netcoreapp2.2\win-x64\OcelotApp.runtimeconfig.json
+F:\LearnProject\Learn20190903\OcelotApp\bin\Release\netcoreapp2.2\win-x64\OcelotApp.runtimeconfig.dev.json
+F:\LearnProject\Learn20190903\OcelotApp\bin\Release\netcoreapp2.2\win-x64\OcelotApp.dll
+F:\LearnProject\Learn20190903\OcelotApp\bin\Release\netcoreapp2.2\win-x64\OcelotApp.pdb
+F:\LearnProject\Learn20190903\OcelotApp\obj\Release\netcoreapp2.2\win-x64\OcelotApp.csprojAssemblyReference.cache
+F:\LearnProject\Learn20190903\OcelotApp\obj\Release\netcoreapp2.2\win-x64\OcelotApp.csproj.CoreCompileInputs.cache
+F:\LearnProject\Learn20190903\OcelotApp\obj\Release\netcoreapp2.2\win-x64\OcelotApp.RazorAssemblyInfo.cache
+F:\LearnProject\Learn20190903\OcelotApp\obj\Release\netcoreapp2.2\win-x64\OcelotApp.RazorAssemblyInfo.cs
+F:\LearnProject\Learn20190903\OcelotApp\obj\Release\netcoreapp2.2\win-x64\OcelotApp.AssemblyInfoInputs.cache
+F:\LearnProject\Learn20190903\OcelotApp\obj\Release\netcoreapp2.2\win-x64\OcelotApp.AssemblyInfo.cs
+F:\LearnProject\Learn20190903\OcelotApp\obj\Release\netcoreapp2.2\win-x64\OcelotApp.RazorTargetAssemblyInfo.cache
+F:\LearnProject\Learn20190903\OcelotApp\obj\Release\netcoreapp2.2\win-x64\OcelotApp.dll
+F:\LearnProject\Learn20190903\OcelotApp\obj\Release\netcoreapp2.2\win-x64\OcelotApp.pdb

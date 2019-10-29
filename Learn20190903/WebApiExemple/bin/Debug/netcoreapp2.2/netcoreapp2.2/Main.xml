@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>WebApiExemple</name>
+  </assembly>
+  <members>
+    <member name="T:Demo.Domain.Shared.Paging.PageInput`1">
+      <summary>
+            分页请求参数
+            </summary>
+      <typeparam name="T">请求对象</typeparam>
+    </member>
+    <member name="P:Demo.Domain.Shared.Paging.PageInput`1.PageIndex">
+      <summary>
+            页码
+            </summary>
+    </member>
+    <member name="P:Demo.Domain.Shared.Paging.PageInput`1.PageSize">
+      <summary>
+            每页显示数
+            </summary>
+    </member>
+    <member name="P:Demo.Domain.Shared.Paging.PageInput`1.Query">
+      <summary>
+            请求参数实体
+            </summary>
+    </member>
+    <member name="T:Demo.Domain.Shared.Paging.PageOutput`1">
+      <summary>
+            分页结果响应
+            </summary>
+      <typeparam name="T" />
+    </member>
+    <member name="P:Demo.Domain.Shared.Paging.PageOutput`1.PageIndex">
+      <summary>
+            页码
+            </summary>
+    </member>
+    <member name="P:Demo.Domain.Shared.Paging.PageOutput`1.Rows">
+      <summary>
+            总记录数
+            </summary>
+    </member>
+    <member name="P:Demo.Domain.Shared.Paging.PageOutput`1.Result">
+      <summary>
+            响应实体
+            </summary>
+    </member>
+    <member name="T:Demo.IApplication.Users.DTO.AddUserInput">
+      <summary>
+             添加用户输入
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.AddUserInput.UserName">
+      <summary>
+            用户名
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.AddUserInput.UserPwd">
+      <summary>
+            用户密码
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.AddUserInput.Six">
+      <summary>
+            性别
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.AddUserInput.Birthday">
+      <summary>
+            出生日期
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.AddUserInput.Remark">
+      <summary>
+            备注
+            </summary>
+    </member>
+    <member name="T:Demo.IApplication.Users.DTO.QueryUserInput">
+      <summary>
+            查询输入参数
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.QueryUserInput.UserName">
+      <summary>
+            用户名
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.QueryUserInput.Six">
+      <summary>
+            性别
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.QueryUserInput.CreateTime">
+      <summary>
+            创建时间
+            </summary>
+    </member>
+    <member name="T:Demo.IApplication.Users.DTO.QueryUserOutput">
+      <summary>
+            用户查询返回对象
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.Id">
+      <summary>
+            用户标识Id
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.UserName">
+      <summary>
+            用户名
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.Six">
+      <summary>
+            性别
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.Birthday">
+      <summary>
+            出生日期
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.CreateTime">
+      <summary>
+            创建时间
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.Remark">
+      <summary>
+            备注
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.QueryUserOutput.Status">
+      <summary>
+            状态 1-有效，0-失效 
+            </summary>
+    </member>
+    <member name="T:Demo.IApplication.Users.DTO.UpdatePasswordInput">
+      <summary>
+            修改密码入参对象
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.UpdatePasswordInput.UserPwd">
+      <summary>
+            第一次密码
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.UpdatePasswordInput.SecondUserPwd">
+      <summary>
+            第二次密码
+            </summary>
+    </member>
+    <member name="T:Demo.IApplication.Users.DTO.UpdateUserInput">
+      <summary>
+            修改用户输入对象
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.UpdateUserInput.UserName">
+      <summary>
+            用户名
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.UpdateUserInput.Six">
+      <summary>
+            性别
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.UpdateUserInput.Birthday">
+      <summary>
+            出生日期
+            </summary>
+    </member>
+    <member name="P:Demo.IApplication.Users.DTO.UpdateUserInput.Remark">
+      <summary>
+            备注
+            </summary>
+    </member>
+    <member name="M:Demo.IApplication.Users.IUsersAppService.AddUser(Demo.IApplication.Users.DTO.AddUserInput)">
+      <summary>
+            新增用户
+            </summary>
+      <param name="addUserInput" />
+      <returns />
+    </member>
+    <member name="M:Demo.IApplication.Users.IUsersAppService.UpdateUser(Demo.IApplication.Users.DTO.UpdateUserInput)">
+      <summary>
+            修改用户
+            </summary>
+      <param name="updateUserInput" />
+      <returns />
+    </member>
+    <member name="M:Demo.IApplication.Users.IUsersAppService.GetUser(System.Int64)">
+      <summary>
+            根据用户Id获取用户明细
+             </summary>
+      <param name="Id" />
+      <returns>返回用户明细</returns>
+    </member>
+    <member name="M:Demo.IApplication.Users.IUsersAppService.GetPageUsers(Demo.Domain.Shared.Paging.PageInput{Demo.IApplication.Users.DTO.QueryUserInput})">
+      <summary>
+            根据分页参数 分页获取用户集合
+            </summary>
+      <param name="PageRequestPackage" />
+      <returns>分页返回用户集合</returns>
+    </member>
+    <member name="T:WebApiExemple.Controllers.ValuesController">
+      <summary />
+    </member>
+    <member name="M:WebApiExemple.Controllers.ValuesController.#ctor(Demo.IApplication.Users.IUsersAppService)">
+      <summary />
+      <param name="usersAppService" />
+    </member>
+    <member name="M:WebApiExemple.Controllers.ValuesController.Get(Demo.Domain.Shared.Paging.PageInput{Demo.IApplication.Users.DTO.QueryUserInput})">
+      <summary>
+            分页获取用户数据
+            </summary>
+            GET api/values
+            <param name="pageInput">输入参数</param><returns /></member>
+    <member name="T:WebApiExemple.Filter.ActionPackageFilter">
+      <summary>
+            动作过滤器
+            </summary>
+    </member>
+    <member name="M:WebApiExemple.Filter.ActionPackageFilter.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+      <summary />
+      <param name="context" />
+    </member>
+    <member name="M:WebApiExemple.Filter.ActionPackageFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+      <summary />
+      <param name="context" />
+    </member>
+    <member name="T:WebApiExemple.Startup">
+      <summary />
+    </member>
+    <member name="M:WebApiExemple.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+      <summary />
+      <param name="configuration" />
+    </member>
+    <member name="P:WebApiExemple.Startup.Configuration">
+      <summary />
+    </member>
+    <member name="M:WebApiExemple.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+      <summary>
+            This method gets called by the runtime. Use this method to add services to the container. 
+            </summary>
+      <param name="services" />
+    </member>
+    <member name="M:WebApiExemple.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+      <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+      <param name="app" />
+      <param name="env" />
+      <param name="provider" />
+    </member>
+  </members>
+</doc>

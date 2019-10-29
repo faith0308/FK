@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CPlatform\CPlatform.csproj" />
+    <ProjectReference Include="..\DapperCore\DapperCore.csproj" />
+    <ProjectReference Include="..\DapperExtensions\DapperExtensions.csproj" />
+  </ItemGroup>
+
+</Project>
