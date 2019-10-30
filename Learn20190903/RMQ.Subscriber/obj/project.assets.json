@@ -1064,11 +1064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\LearnProject\\Learn20190903\\RMQ.Subscriber\\RMQ.Subscriber.csproj",
+      "projectUniqueName": "F:\\LearnProject\\FK\\Learn20190903\\RMQ.Subscriber\\RMQ.Subscriber.csproj",
       "projectName": "RMQ.Subscriber",
-      "projectPath": "F:\\LearnProject\\Learn20190903\\RMQ.Subscriber\\RMQ.Subscriber.csproj",
+      "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\RMQ.Subscriber\\RMQ.Subscriber.csproj",
       "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
-      "outputPath": "F:\\LearnProject\\Learn20190903\\RMQ.Subscriber\\obj\\",
+      "outputPath": "F:\\LearnProject\\FK\\Learn20190903\\RMQ.Subscriber\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1088,8 +1088,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj": {
-              "projectPath": "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj"
+            "F:\\LearnProject\\FK\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj": {
+              "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj"
             }
           }
         }

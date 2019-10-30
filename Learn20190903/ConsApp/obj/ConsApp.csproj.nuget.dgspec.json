@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\LearnProject\\Learn20190903\\ConsApp\\ConsApp.csproj": {}
+    "F:\\LearnProject\\FK\\Learn20190903\\ConsApp\\ConsApp.csproj": {}
   },
   "projects": {
-    "F:\\LearnProject\\Learn20190903\\ConsApp\\ConsApp.csproj": {
+    "F:\\LearnProject\\FK\\Learn20190903\\ConsApp\\ConsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\ConsApp\\ConsApp.csproj",
+        "projectUniqueName": "F:\\LearnProject\\FK\\Learn20190903\\ConsApp\\ConsApp.csproj",
         "projectName": "ConsApp",
-        "projectPath": "F:\\LearnProject\\Learn20190903\\ConsApp\\ConsApp.csproj",
+        "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\ConsApp\\ConsApp.csproj",
         "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
-        "outputPath": "F:\\LearnProject\\Learn20190903\\ConsApp\\obj\\",
+        "outputPath": "F:\\LearnProject\\FK\\Learn20190903\\ConsApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "F:\\LearnProject\\Learn20190903\\Singleton\\Singleton.csproj": {
-                "projectPath": "F:\\LearnProject\\Learn20190903\\Singleton\\Singleton.csproj"
+              "F:\\LearnProject\\FK\\Learn20190903\\Singleton\\Singleton.csproj": {
+                "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\Singleton\\Singleton.csproj"
               }
             }
           }
@@ -61,14 +61,14 @@
         }
       }
     },
-    "F:\\LearnProject\\Learn20190903\\Singleton\\Singleton.csproj": {
+    "F:\\LearnProject\\FK\\Learn20190903\\Singleton\\Singleton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\Singleton\\Singleton.csproj",
+        "projectUniqueName": "F:\\LearnProject\\FK\\Learn20190903\\Singleton\\Singleton.csproj",
         "projectName": "Singleton",
-        "projectPath": "F:\\LearnProject\\Learn20190903\\Singleton\\Singleton.csproj",
+        "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\Singleton\\Singleton.csproj",
         "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
-        "outputPath": "F:\\LearnProject\\Learn20190903\\Singleton\\obj\\",
+        "outputPath": "F:\\LearnProject\\FK\\Learn20190903\\Singleton\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

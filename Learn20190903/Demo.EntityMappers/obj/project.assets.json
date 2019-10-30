@@ -6398,11 +6398,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\LearnProject\\Learn20190903\\Demo.EntityMappers\\Demo.Application.csproj",
+      "projectUniqueName": "F:\\LearnProject\\FK\\Learn20190903\\Demo.EntityMappers\\Demo.Application.csproj",
       "projectName": "Demo.Application",
-      "projectPath": "F:\\LearnProject\\Learn20190903\\Demo.EntityMappers\\Demo.Application.csproj",
+      "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\Demo.EntityMappers\\Demo.Application.csproj",
       "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
-      "outputPath": "F:\\LearnProject\\Learn20190903\\Demo.EntityMappers\\obj\\",
+      "outputPath": "F:\\LearnProject\\FK\\Learn20190903\\Demo.EntityMappers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6422,17 +6422,17 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj": {
-              "projectPath": "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj"
+            "F:\\LearnProject\\FK\\Learn20190903\\DapperCore\\DapperCore.csproj": {
+              "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\DapperCore\\DapperCore.csproj"
             },
-            "F:\\LearnProject\\Learn20190903\\Demo.Domain.Shared\\Demo.Domain.Shared.csproj": {
-              "projectPath": "F:\\LearnProject\\Learn20190903\\Demo.Domain.Shared\\Demo.Domain.Shared.csproj"
+            "F:\\LearnProject\\FK\\Learn20190903\\Demo.Domain.Shared\\Demo.Domain.Shared.csproj": {
+              "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\Demo.Domain.Shared\\Demo.Domain.Shared.csproj"
             },
-            "F:\\LearnProject\\Learn20190903\\Demo.Domain\\Demo.Domain.csproj": {
-              "projectPath": "F:\\LearnProject\\Learn20190903\\Demo.Domain\\Demo.Domain.csproj"
+            "F:\\LearnProject\\FK\\Learn20190903\\Demo.Domain\\Demo.Domain.csproj": {
+              "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\Demo.Domain\\Demo.Domain.csproj"
             },
-            "F:\\LearnProject\\Learn20190903\\Demo.Entitys\\Demo.IApplication.csproj": {
-              "projectPath": "F:\\LearnProject\\Learn20190903\\Demo.Entitys\\Demo.IApplication.csproj"
+            "F:\\LearnProject\\FK\\Learn20190903\\Demo.Entitys\\Demo.IApplication.csproj": {
+              "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\Demo.Entitys\\Demo.IApplication.csproj"
             }
           }
         }

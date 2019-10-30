@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj": {}
+    "F:\\LearnProject\\FK\\Learn20190903\\DapperCore\\DapperCore.csproj": {}
   },
   "projects": {
-    "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj": {
+    "F:\\LearnProject\\FK\\Learn20190903\\CPlatform\\CPlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj",
+        "projectUniqueName": "F:\\LearnProject\\FK\\Learn20190903\\CPlatform\\CPlatform.csproj",
         "projectName": "CPlatform",
-        "projectPath": "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj",
+        "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\CPlatform\\CPlatform.csproj",
         "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
-        "outputPath": "F:\\LearnProject\\Learn20190903\\CPlatform\\obj\\",
+        "outputPath": "F:\\LearnProject\\FK\\Learn20190903\\CPlatform\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -85,14 +85,14 @@
         }
       }
     },
-    "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj": {
+    "F:\\LearnProject\\FK\\Learn20190903\\DapperCore\\DapperCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj",
+        "projectUniqueName": "F:\\LearnProject\\FK\\Learn20190903\\DapperCore\\DapperCore.csproj",
         "projectName": "DapperCore",
-        "projectPath": "F:\\LearnProject\\Learn20190903\\DapperCore\\DapperCore.csproj",
+        "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\DapperCore\\DapperCore.csproj",
         "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
-        "outputPath": "F:\\LearnProject\\Learn20190903\\DapperCore\\obj\\",
+        "outputPath": "F:\\LearnProject\\FK\\Learn20190903\\DapperCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -112,11 +112,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj": {
-                "projectPath": "F:\\LearnProject\\Learn20190903\\CPlatform\\CPlatform.csproj"
+              "F:\\LearnProject\\FK\\Learn20190903\\CPlatform\\CPlatform.csproj": {
+                "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\CPlatform\\CPlatform.csproj"
               },
-              "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj": {
-                "projectPath": "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj"
+              "F:\\LearnProject\\FK\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj": {
+                "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj"
               }
             }
           }
@@ -149,14 +149,14 @@
         }
       }
     },
-    "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj": {
+    "F:\\LearnProject\\FK\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj",
+        "projectUniqueName": "F:\\LearnProject\\FK\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj",
         "projectName": "DapperExtensions",
-        "projectPath": "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj",
+        "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj",
         "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
-        "outputPath": "F:\\LearnProject\\Learn20190903\\DapperExtensions\\obj\\",
+        "outputPath": "F:\\LearnProject\\FK\\Learn20190903\\DapperExtensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

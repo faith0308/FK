@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\LearnProject\\Learn20190903\\RabbitMQApp\\RabbitMQApp.csproj": {}
+    "F:\\LearnProject\\FK\\Learn20190903\\RabbitMQApp\\RabbitMQApp.csproj": {}
   },
   "projects": {
-    "F:\\LearnProject\\Learn20190903\\RabbitMQApp\\RabbitMQApp.csproj": {
+    "F:\\LearnProject\\FK\\Learn20190903\\RabbitMQApp\\RabbitMQApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\RabbitMQApp\\RabbitMQApp.csproj",
+        "projectUniqueName": "F:\\LearnProject\\FK\\Learn20190903\\RabbitMQApp\\RabbitMQApp.csproj",
         "projectName": "RabbitMQApp",
-        "projectPath": "F:\\LearnProject\\Learn20190903\\RabbitMQApp\\RabbitMQApp.csproj",
+        "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\RabbitMQApp\\RabbitMQApp.csproj",
         "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
-        "outputPath": "F:\\LearnProject\\Learn20190903\\RabbitMQApp\\obj\\",
+        "outputPath": "F:\\LearnProject\\FK\\Learn20190903\\RabbitMQApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

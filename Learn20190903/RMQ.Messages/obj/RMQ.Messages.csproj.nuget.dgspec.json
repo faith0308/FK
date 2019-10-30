@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj": {}
+    "F:\\LearnProject\\FK\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj": {}
   },
   "projects": {
-    "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj": {
+    "F:\\LearnProject\\FK\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj",
+        "projectUniqueName": "F:\\LearnProject\\FK\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj",
         "projectName": "RMQ.Messages",
-        "projectPath": "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj",
+        "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\RMQ.Messages\\RMQ.Messages.csproj",
         "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
-        "outputPath": "F:\\LearnProject\\Learn20190903\\RMQ.Messages\\obj\\",
+        "outputPath": "F:\\LearnProject\\FK\\Learn20190903\\RMQ.Messages\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

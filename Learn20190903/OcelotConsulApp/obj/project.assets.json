@@ -12389,11 +12389,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\LearnProject\\Learn20190903\\OcelotConsulApp\\OcelotConsulApp.csproj",
+      "projectUniqueName": "F:\\LearnProject\\FK\\Learn20190903\\OcelotConsulApp\\OcelotConsulApp.csproj",
       "projectName": "OcelotConsulApp",
-      "projectPath": "F:\\LearnProject\\Learn20190903\\OcelotConsulApp\\OcelotConsulApp.csproj",
+      "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\OcelotConsulApp\\OcelotConsulApp.csproj",
       "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
-      "outputPath": "F:\\LearnProject\\Learn20190903\\OcelotConsulApp\\obj\\",
+      "outputPath": "F:\\LearnProject\\FK\\Learn20190903\\OcelotConsulApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

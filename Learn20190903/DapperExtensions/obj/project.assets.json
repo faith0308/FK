@@ -943,11 +943,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj",
+      "projectUniqueName": "F:\\LearnProject\\FK\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj",
       "projectName": "DapperExtensions",
-      "projectPath": "F:\\LearnProject\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj",
+      "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\DapperExtensions\\DapperExtensions.csproj",
       "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
-      "outputPath": "F:\\LearnProject\\Learn20190903\\DapperExtensions\\obj\\",
+      "outputPath": "F:\\LearnProject\\FK\\Learn20190903\\DapperExtensions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

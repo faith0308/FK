@@ -40,6 +40,7 @@
         //一个时间周期内允许访问的最大次数
         "Limit": 5
       },
+      //服务熔断
       "QoSOptions": {
         //允许异常次数，当Ocelot转发给该下游服务连续出现异常次数达到该数字时，Ocelot会进行自动熔断，一段时间内不再向该下游服务转发请求
         "ExceptionsAllowedBeforeBreaking": 3,

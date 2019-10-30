@@ -13427,11 +13427,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\LearnProject\\Learn20190903\\QuartzAPP\\QuartzAPP.csproj",
+      "projectUniqueName": "F:\\LearnProject\\FK\\Learn20190903\\QuartzAPP\\QuartzAPP.csproj",
       "projectName": "QuartzAPP",
-      "projectPath": "F:\\LearnProject\\Learn20190903\\QuartzAPP\\QuartzAPP.csproj",
+      "projectPath": "F:\\LearnProject\\FK\\Learn20190903\\QuartzAPP\\QuartzAPP.csproj",
       "packagesPath": "C:\\Users\\faith\\.nuget\\packages\\",
-      "outputPath": "F:\\LearnProject\\Learn20190903\\QuartzAPP\\obj\\",
+      "outputPath": "F:\\LearnProject\\FK\\Learn20190903\\QuartzAPP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
